@@ -1,0 +1,71 @@
+can_manager:
+  ros__parameters:
+
+# mission-critical
+    brake:
+      can_id: 13
+      mode: 1 
+
+    middrive:
+      can_id: 14
+      rpm: 1 
+
+    steering:
+      can_id: 15
+      rpm: 1 
+
+    steering_angle:
+      can_id: 17
+      mode: 6 
+      dlc: 4
+      is_rtr: false
+      is_extended: false
+      is_error: false
+
+# non-mission-critical
+    sync_signal:
+      can_id: 512
+      time_interval: 100
+      dlc: 1
+      is_rtr: false
+      is_extended: false
+      is_error: false
+
+    eyes_strip:
+      can_id: 513
+      mode: 1 
+      pixels: 10
+      red_value: 20
+      green_value: 20
+      blue_value: 20
+      time_interval: 100
+      dlc: 6
+      is_rtr: false
+      is_extended: false
+      is_error: false
+
+    front_strip:
+      can_id: 514
+      mode: 1 
+      pixels: 10
+      red_value: 20
+      green_value: 20
+      blue_value: 20
+      time_interval: 100
+      dlc: 6
+      is_rtr: false
+      is_extended: false
+      is_error: false
+
+    back_strip:
+      can_id: 515
+      mode: 1 
+      pixels: 10
+      red_value: 20
+      green_value: 20
+      blue_value: 20
+      time_interval: 100
+      dlc: 6
+      is_rtr: false
+      is_extended: false
+      is_error: false

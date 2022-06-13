@@ -1,0 +1,6 @@
+Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/crazyrobot/evpi_ws/src/evpi_navigation -DCMAKE_INSTALL_PREFIX=/home/crazyrobot/evpi_ws/install/evpi_navigation
+Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/crazyrobot/evpi_ws/src/evpi_navigation -DCMAKE_INSTALL_PREFIX=/home/crazyrobot/evpi_ws/install/evpi_navigation
+Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_navigation -- -j16 -l16
+Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_navigation -- -j16 -l16
+Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_navigation
+Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_navigation

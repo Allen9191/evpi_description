@@ -1,0 +1,6 @@
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_uwb/src/following_node.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::PoseStamped FollowingNode::pose_2d_est(double, double)[m[K’:
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_uwb/src/following_node.cpp:142:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyz_alpha[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  142 |     static double xy_alpha, [01;35m[Kyz_alpha[m[K;
+      |                             [01;35m[K^~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_uwb/src/following_node.cpp:[m[K At global scope:
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_uwb/src/following_node.cpp:142:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kyz_alpha[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]

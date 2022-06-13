@@ -1,0 +1,4 @@
+source;share/evpi_drive/local_setup.bash
+source;share/evpi_drive/local_setup.dsv
+source;share/evpi_drive/local_setup.sh
+source;share/evpi_drive/local_setup.zsh

@@ -1,0 +1,71 @@
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:[m[K In member function ‘[01m[Kvoid CanManager::strip_callback(evpi_interfaces::msg::Mode_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:110:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::mode[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  110 |       sensor_can_msgs.data = {[01;35m[Keyes_strip.mode[m[K, eyes_strip.pixels, eyes_strip.red_value,
+      |                               [01;35m[K~~~~~~~~~~~^~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:110:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::pixels[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  110 |    sensor_can_msgs.data = {eyes_strip.mode, [01;35m[Keyes_strip.pixels[m[K, eyes_strip.red_value,
+      |                                             [01;35m[K~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:110:78:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::red_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  110 | an_msgs.data = {eyes_strip.mode, eyes_strip.pixels, [01;35m[Keyes_strip.red_value[m[K,
+      |                                                     [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:111:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::green_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  111 |                               [01;35m[Keyes_strip.green_value[m[K, eyes_strip.blue_value,
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:111:66:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::blue_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  111 |                           eyes_strip.green_value, [01;35m[Keyes_strip.blue_value[m[K,
+      |                                                   [01;35m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:112:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::time_interval[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  112 |                               [01;35m[Keyes_strip.time_interval[m[K};
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:126:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::mode[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  126 |       sensor_can_msgs.data = {[01;35m[Kfront_strip.mode[m[K, front_strip.pixels, front_strip.red_value,
+      |                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:126:61:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::pixels[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  126 |  sensor_can_msgs.data = {front_strip.mode, [01;35m[Kfront_strip.pixels[m[K, front_strip.red_value,
+      |                                            [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:126:81:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::red_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  126 | msgs.data = {front_strip.mode, front_strip.pixels, [01;35m[Kfront_strip.red_value[m[K,
+      |                                                    [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:127:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::green_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  127 |                               [01;35m[Kfront_strip.green_value[m[K, front_strip.blue_value,
+      |                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:127:68:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::blue_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  127 |                         front_strip.green_value, [01;35m[Kfront_strip.blue_value[m[K,
+      |                                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:128:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::time_interval[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  128 |                               [01;35m[Kfront_strip.time_interval[m[K};
+      |                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:142:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::mode[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  142 |       sensor_can_msgs.data = {[01;35m[Kback_strip.mode[m[K, back_strip.pixels, back_strip.red_value,
+      |                               [01;35m[K~~~~~~~~~~~^~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:142:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::pixels[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  142 |    sensor_can_msgs.data = {back_strip.mode, [01;35m[Kback_strip.pixels[m[K, back_strip.red_value,
+      |                                             [01;35m[K~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:142:78:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::red_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  142 | an_msgs.data = {back_strip.mode, back_strip.pixels, [01;35m[Kback_strip.red_value[m[K,
+      |                                                     [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:143:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::green_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  143 |                               [01;35m[Kback_strip.green_value[m[K, back_strip.blue_value,
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:143:66:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::blue_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  143 |                           back_strip.green_value, [01;35m[Kback_strip.blue_value[m[K,
+      |                                                   [01;35m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:144:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::time_interval[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  144 |                               [01;35m[Kback_strip.time_interval[m[K};
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:[m[K In member function ‘[01m[Kvoid CanManager::can_callback(can_msgs::msg::Frame_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:154:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcan_msgs::msg::Frame_<std::allocator<void> >::_id_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  154 |     if([01;35m[Kfront_strip.can_id == msg->id[m[K)
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:164:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcan_msgs::msg::Frame_<std::allocator<void> >::_id_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  164 |     else if([01;35m[Ksteering_angle.can_id == msg->id[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K

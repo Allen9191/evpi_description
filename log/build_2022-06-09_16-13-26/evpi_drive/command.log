@@ -1,0 +1,6 @@
+Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/crazyrobot/evpi_ws/src/evpi_drive -DCMAKE_INSTALL_PREFIX=/home/crazyrobot/evpi_ws/install/evpi_drive
+Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/crazyrobot/evpi_ws/src/evpi_drive -DCMAKE_INSTALL_PREFIX=/home/crazyrobot/evpi_ws/install/evpi_drive
+Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_drive -- -j16 -l16
+Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_drive -- -j16 -l16
+Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_drive
+Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_drive

@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from evpi_interfaces/msg/MultiRange.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module evpi_interfaces {
+  module msg {
+    struct MultiRange {
+      @verbatim (language="comment", text=
+        " timestamp in the header is the time the ranger" "\n"
+        " returned the distance reading")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " minimum range value")
+      @unit (value="m")
+      float min_range;
+
+      @verbatim (language="comment", text=
+        " maximum range value" "\n"
+        " Fixed distance rangers require min_range==max_range")
+      @unit (value="m")
+      float max_range;
+
+      @verbatim (language="comment", text=
+        " id of anchors")
+      int32 id;
+
+      @verbatim (language="comment", text=
+        " range data" "\n"
+        " (Note: values < range_min or > range_max" "\n"
+        " should be discarded)" "\n"
+        " Fixed distance rangers only output -Inf or +Inf." "\n"
+        " -Inf represents a detection within fixed distance." "\n"
+        " (Detection too close to the sensor to quantify)" "\n"
+        " +Inf represents no detection within the fixed distance.")
+      @unit (value="m")
+      sequence<float> ranges;
+    };
+  };
+};

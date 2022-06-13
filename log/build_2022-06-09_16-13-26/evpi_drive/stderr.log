@@ -1,0 +1,11 @@
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_drive/src/motor_controll.cpp:[m[K In member function ‘[01m[Kvoid MotorControll::ackermann_callback(ackermann_msgs::msg::AckermannDrive_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_drive/src/motor_controll.cpp:84:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbrake_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   84 |     static double [01;35m[Kbrake_pos[m[K;
+      |                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_drive/src/motor_controll.cpp:86:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteer_message[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   86 |     uint8_t [01;35m[Ksteer_message[m[K[4];
+      |             [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_drive/src/motor_controll.cpp:[m[K At global scope:
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_drive/src/motor_controll.cpp:84:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbrake_pos[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+   84 |     static double [01;35m[Kbrake_pos[m[K;
+      |                   [01;35m[K^~~~~~~~~[m[K

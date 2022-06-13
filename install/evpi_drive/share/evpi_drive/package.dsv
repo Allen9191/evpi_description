@@ -1,0 +1,8 @@
+source;share/evpi_drive/hook/cmake_prefix_path.ps1
+source;share/evpi_drive/hook/cmake_prefix_path.dsv
+source;share/evpi_drive/hook/cmake_prefix_path.sh
+source;share/evpi_drive/local_setup.bash
+source;share/evpi_drive/local_setup.dsv
+source;share/evpi_drive/local_setup.ps1
+source;share/evpi_drive/local_setup.sh
+source;share/evpi_drive/local_setup.zsh

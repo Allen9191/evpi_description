@@ -1,0 +1,26 @@
+[100%] Built target evpi_joint_state_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/urdf
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/urdf/evpi.urdf
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/meshes
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/meshes/GB.stl
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/rviz
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/rviz/urdf_config.rviz
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/launch
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/launch/evpi_v1.launch.py
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/lib/evpi_description/evpi_joint_state_publisher
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/ament_index/resource_index/package_run_dependencies/evpi_description
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/ament_index/resource_index/parent_prefix_path/evpi_description
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/environment/path.sh
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/environment/path.dsv
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/local_setup.bash
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/local_setup.sh
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/local_setup.zsh
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/local_setup.dsv
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.dsv
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/ament_index/resource_index/packages/evpi_description
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/cmake/evpi_descriptionConfig.cmake
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/cmake/evpi_descriptionConfig-version.cmake
+-- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.xml

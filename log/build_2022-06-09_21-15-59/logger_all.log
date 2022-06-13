@@ -1,0 +1,478 @@
+[0.086s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb1982657c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb1982657c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb198265d30>)
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.102s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/crazyrobot/evpi_ws'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_bringup) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/evpi_bringup' with type 'ros.ament_cmake' and name 'evpi_bringup'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_description) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/evpi_description' with type 'ros.ament_cmake' and name 'evpi_description'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_drive) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/evpi_drive' with type 'ros.ament_cmake' and name 'evpi_drive'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_interfaces) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/evpi_interfaces' with type 'ros.ament_cmake' and name 'evpi_interfaces'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_navigation) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/evpi_navigation' with type 'ros.ament_cmake' and name 'evpi_navigation'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/evpi_uwb) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/evpi_uwb' with type 'ros.ament_cmake' and name 'evpi_uwb'
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.130s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/crazyrobot/evpi_ws/install
+[0.131s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/crazyrobot/colcon_ws/install
+[0.132s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 353 installed packages in /opt/ros/foxy
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'evpi_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crazyrobot/evpi_ws/build/evpi_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crazyrobot/evpi_ws/install/evpi_description', 'merge_install': False, 'path': '/home/crazyrobot/evpi_ws/src/evpi_description', 'symlink_install': False, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'evpi_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crazyrobot/evpi_ws/build/evpi_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crazyrobot/evpi_ws/install/evpi_drive', 'merge_install': False, 'path': '/home/crazyrobot/evpi_ws/src/evpi_drive', 'symlink_install': False, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'evpi_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'evpi_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crazyrobot/evpi_ws/build/evpi_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crazyrobot/evpi_ws/install/evpi_interfaces', 'merge_install': False, 'path': '/home/crazyrobot/evpi_ws/src/evpi_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'cmake_target' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.194s] DEBUG:colcon.colcon_core.verb:Building package 'evpi_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crazyrobot/evpi_ws/build/evpi_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crazyrobot/evpi_ws/install/evpi_navigation', 'merge_install': False, 'path': '/home/crazyrobot/evpi_ws/src/evpi_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'cmake_target' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.195s] DEBUG:colcon.colcon_core.verb:Building package 'evpi_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crazyrobot/evpi_ws/build/evpi_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crazyrobot/evpi_ws/install/evpi_bringup', 'merge_install': False, 'path': '/home/crazyrobot/evpi_ws/src/evpi_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'cmake_target' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'cmake_clean_cache' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'cmake_clean_first' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'cmake_force_configure' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'ament_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'catkin_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'evpi_uwb' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.195s] DEBUG:colcon.colcon_core.verb:Building package 'evpi_uwb' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crazyrobot/evpi_ws/build/evpi_uwb', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crazyrobot/evpi_ws/install/evpi_uwb', 'merge_install': False, 'path': '/home/crazyrobot/evpi_ws/src/evpi_uwb', 'symlink_install': False, 'test_result_base': None}
+[0.195s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crazyrobot/evpi_ws/src/evpi_interfaces' with build type 'ament_cmake'
+[0.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crazyrobot/evpi_ws/src/evpi_interfaces'
+[0.199s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.203s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crazyrobot/evpi_ws/src/evpi_description' with build type 'ament_cmake'
+[0.204s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crazyrobot/evpi_ws/src/evpi_description'
+[0.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.208s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crazyrobot/evpi_ws/src/evpi_drive' with build type 'ament_cmake'
+[0.208s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crazyrobot/evpi_ws/src/evpi_drive'
+[0.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crazyrobot/evpi_ws/src/evpi_navigation' with build type 'ament_cmake'
+[0.212s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crazyrobot/evpi_ws/src/evpi_navigation'
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_interfaces -- -j16 -l16
+[0.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_description -- -j16 -l16
+[0.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_drive -- -j16 -l16
+[0.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_navigation -- -j16 -l16
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_description -- -j16 -l16
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_drive -- -j16 -l16
+[0.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_navigation -- -j16 -l16
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_description
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_navigation
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_drive
+[0.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_description)
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_description
+[0.305s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description' for CMake module files
+[0.306s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description' for CMake config files
+[0.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_description', 'cmake_prefix_path')
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/hook/cmake_prefix_path.ps1'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/hook/cmake_prefix_path.dsv'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/hook/cmake_prefix_path.sh'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/lib'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/bin'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/lib/pkgconfig/evpi_description.pc'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/lib/python3.8/site-packages'
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/bin'
+[0.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.ps1'
+[0.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.dsv'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.sh'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.bash'
+[0.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.zsh'
+[0.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_description/share/colcon-core/packages/evpi_description)
+[0.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_navigation)
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation' for CMake module files
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_navigation
+[0.316s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation' for CMake config files
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_navigation', 'cmake_prefix_path')
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/hook/cmake_prefix_path.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/hook/cmake_prefix_path.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/hook/cmake_prefix_path.sh'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/lib'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/bin'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/lib/pkgconfig/evpi_navigation.pc'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/lib/python3.8/site-packages'
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/bin'
+[0.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.sh'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.bash'
+[0.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.zsh'
+[0.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_navigation/share/colcon-core/packages/evpi_navigation)
+[0.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_drive)
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive' for CMake module files
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_drive
+[0.323s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive' for CMake config files
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_drive', 'cmake_prefix_path')
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/hook/cmake_prefix_path.ps1'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/hook/cmake_prefix_path.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/hook/cmake_prefix_path.sh'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/lib'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/bin'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/lib/pkgconfig/evpi_drive.pc'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/lib/python3.8/site-packages'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/bin'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.dsv'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.sh'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.bash'
+[0.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.zsh'
+[0.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_drive/share/colcon-core/packages/evpi_drive)
+[0.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_description)
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description' for CMake module files
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description' for CMake config files
+[0.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_description', 'cmake_prefix_path')
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/hook/cmake_prefix_path.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/hook/cmake_prefix_path.dsv'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/hook/cmake_prefix_path.sh'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/lib'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/bin'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/lib/pkgconfig/evpi_description.pc'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/lib/python3.8/site-packages'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_description/bin'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.dsv'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.sh'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.bash'
+[0.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.zsh'
+[0.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_description/share/colcon-core/packages/evpi_description)
+[0.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_navigation)
+[0.336s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation' for CMake module files
+[0.336s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation' for CMake config files
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_navigation', 'cmake_prefix_path')
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/hook/cmake_prefix_path.ps1'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/hook/cmake_prefix_path.dsv'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/hook/cmake_prefix_path.sh'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/lib'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/bin'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/lib/pkgconfig/evpi_navigation.pc'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/lib/python3.8/site-packages'
+[0.338s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_navigation/bin'
+[0.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.ps1'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.dsv'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.sh'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.bash'
+[0.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.zsh'
+[0.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_navigation/share/colcon-core/packages/evpi_navigation)
+[0.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_drive)
+[0.342s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive' for CMake module files
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive' for CMake config files
+[0.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_drive', 'cmake_prefix_path')
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/hook/cmake_prefix_path.ps1'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/hook/cmake_prefix_path.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/hook/cmake_prefix_path.sh'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/lib'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/bin'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/lib/pkgconfig/evpi_drive.pc'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/lib/python3.8/site-packages'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_drive/bin'
+[0.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.bash'
+[0.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_drive/share/evpi_drive/package.zsh'
+[0.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_drive/share/colcon-core/packages/evpi_drive)
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_interfaces -- -j16 -l16
+[0.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_interfaces
+[0.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_interfaces)
+[0.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_interfaces
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces' for CMake module files
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces' for CMake config files
+[0.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_interfaces', 'cmake_prefix_path')
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/cmake_prefix_path.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/cmake_prefix_path.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/cmake_prefix_path.sh'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/lib'
+[0.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_interfaces', 'ld_library_path_lib')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/ld_library_path_lib.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/ld_library_path_lib.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/ld_library_path_lib.sh'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/bin'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/lib/pkgconfig/evpi_interfaces.pc'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/lib/python3.8/site-packages'
+[0.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_interfaces', 'pythonpath')
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/pythonpath.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/pythonpath.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/pythonpath.sh'
+[0.432s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/bin'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.sh'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.bash'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/colcon-core/packages/evpi_interfaces)
+[0.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_interfaces)
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces' for CMake module files
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces' for CMake config files
+[0.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_interfaces', 'cmake_prefix_path')
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/cmake_prefix_path.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/cmake_prefix_path.dsv'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/cmake_prefix_path.sh'
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/lib'
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_interfaces', 'ld_library_path_lib')
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/ld_library_path_lib.ps1'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/ld_library_path_lib.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/ld_library_path_lib.sh'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/bin'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/lib/pkgconfig/evpi_interfaces.pc'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/lib/python3.8/site-packages'
+[0.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_interfaces', 'pythonpath')
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/pythonpath.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/pythonpath.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/hook/pythonpath.sh'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_interfaces/bin'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.dsv'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.bash'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/package.zsh'
+[0.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/colcon-core/packages/evpi_interfaces)
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crazyrobot/evpi_ws/src/evpi_bringup' with build type 'ament_cmake'
+[0.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crazyrobot/evpi_ws/src/evpi_bringup'
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.479s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crazyrobot/evpi_ws/src/evpi_uwb' with build type 'ament_cmake'
+[0.480s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crazyrobot/evpi_ws/src/evpi_uwb'
+[0.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_bringup': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_bringup -- -j16 -l16
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_uwb': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_uwb -- -j16 -l16
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_bringup' returned '0': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_bringup -- -j16 -l16
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_uwb' returned '0': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_uwb -- -j16 -l16
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_bringup': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_bringup
+[0.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_bringup)
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup' for CMake module files
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup' for CMake config files
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_bringup', 'cmake_prefix_path')
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/hook/cmake_prefix_path.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/hook/cmake_prefix_path.dsv'
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_uwb': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_uwb
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/hook/cmake_prefix_path.sh'
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_bringup' returned '0': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_bringup
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/lib'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/bin'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/lib/pkgconfig/evpi_bringup.pc'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/lib/python3.8/site-packages'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/bin'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.sh'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.bash'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.zsh'
+[0.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_bringup/share/colcon-core/packages/evpi_bringup)
+[0.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_uwb)
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb' for CMake module files
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_uwb' returned '0': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_uwb
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb' for CMake config files
+[0.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_uwb', 'cmake_prefix_path')
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/hook/cmake_prefix_path.ps1'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/hook/cmake_prefix_path.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/hook/cmake_prefix_path.sh'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/lib'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/bin'
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/lib/pkgconfig/evpi_uwb.pc'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/lib/python3.8/site-packages'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/bin'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.ps1'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.sh'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.bash'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.zsh'
+[0.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_uwb/share/colcon-core/packages/evpi_uwb)
+[0.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_bringup)
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup' for CMake module files
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup' for CMake config files
+[0.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_bringup', 'cmake_prefix_path')
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/hook/cmake_prefix_path.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/hook/cmake_prefix_path.dsv'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/hook/cmake_prefix_path.sh'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/lib'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/bin'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/lib/pkgconfig/evpi_bringup.pc'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/lib/python3.8/site-packages'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_bringup/bin'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.ps1'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.dsv'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.sh'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.bash'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.zsh'
+[0.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_bringup/share/colcon-core/packages/evpi_bringup)
+[0.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(evpi_uwb)
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb' for CMake module files
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb' for CMake config files
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('evpi_uwb', 'cmake_prefix_path')
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/hook/cmake_prefix_path.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/hook/cmake_prefix_path.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/hook/cmake_prefix_path.sh'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/lib'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/bin'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/lib/pkgconfig/evpi_uwb.pc'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/lib/python3.8/site-packages'
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/crazyrobot/evpi_ws/install/evpi_uwb/bin'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.sh'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.bash'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.zsh'
+[0.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crazyrobot/evpi_ws/install/evpi_uwb/share/colcon-core/packages/evpi_uwb)
+[0.593s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.593s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.594s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.599s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.599s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.608s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/crazyrobot/evpi_ws/install/local_setup.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/crazyrobot/evpi_ws/install/_local_setup_util_ps1.py'
+[0.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/crazyrobot/evpi_ws/install/setup.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/crazyrobot/evpi_ws/install/local_setup.sh'
+[0.611s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/crazyrobot/evpi_ws/install/_local_setup_util_sh.py'
+[0.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/crazyrobot/evpi_ws/install/setup.sh'
+[0.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/crazyrobot/evpi_ws/install/local_setup.bash'
+[0.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/crazyrobot/evpi_ws/install/setup.bash'
+[0.613s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/crazyrobot/evpi_ws/install/local_setup.zsh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/crazyrobot/evpi_ws/install/setup.zsh'

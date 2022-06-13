@@ -1,0 +1,37 @@
+[0.010s] Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_uwb': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_uwb -- -j16 -l16
+[0.049s] [ 25%] Built target following_node
+[0.049s] [ 75%] Built target trilateration_mse_3d
+[0.049s] [ 75%] Built target trilateration_mse
+[0.049s] [100%] Built target hybrid_cosine
+[0.057s] Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_uwb' returned '0': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_uwb -- -j16 -l16
+[0.081s] Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_uwb': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_uwb
+[0.083s] -- Install configuration: ""
+[0.083s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/launch
+[0.083s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/launch/uwb_hybrid.launch.py
+[0.083s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/launch/trilateration_mse.launch.py
+[0.083s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/launch/uwb_transceiver.launch.py
+[0.083s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/config
+[0.083s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/config/uwb.yaml
+[0.084s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/include
+[0.084s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/include/evpi_uwb
+[0.084s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/include/evpi_uwb/following_node.hpp
+[0.084s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/lib/evpi_uwb/following_node
+[0.084s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/lib/evpi_uwb/trilateration_mse
+[0.084s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/lib/evpi_uwb/trilateration_mse_3d
+[0.084s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/lib/evpi_uwb/hybrid_cosine
+[0.085s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/ament_index/resource_index/package_run_dependencies/evpi_uwb
+[0.085s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/ament_index/resource_index/parent_prefix_path/evpi_uwb
+[0.085s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/environment/ament_prefix_path.sh
+[0.085s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/environment/ament_prefix_path.dsv
+[0.085s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/environment/path.sh
+[0.086s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/environment/path.dsv
+[0.086s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/local_setup.bash
+[0.086s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/local_setup.sh
+[0.086s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/local_setup.zsh
+[0.086s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/local_setup.dsv
+[0.087s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.dsv
+[0.087s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/ament_index/resource_index/packages/evpi_uwb
+[0.087s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/cmake/evpi_uwbConfig.cmake
+[0.087s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/cmake/evpi_uwbConfig-version.cmake
+[0.088s] -- Up-to-date: /home/crazyrobot/evpi_ws/install/evpi_uwb/share/evpi_uwb/package.xml
+[0.088s] Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_uwb' returned '0': CMAKE_PREFIX_PATH=/home/crazyrobot/evpi_ws/install/evpi_interfaces:/home/crazyrobot/evpi_ws/install/evpi_uwb:/home/crazyrobot/evpi_ws/install/evpi_navigation:/home/crazyrobot/evpi_ws/install/evpi_bringup:/home/crazyrobot/evpi_ws/install/evpi_drive:/home/crazyrobot/evpi_ws/install/evpi_description:/home/crazyrobot/colcon_ws/install/turtlebot3_simulations:/home/crazyrobot/colcon_ws/install/turtlebot3_gazebo:/home/crazyrobot/colcon_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_uwb

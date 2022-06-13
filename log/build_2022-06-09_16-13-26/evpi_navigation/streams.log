@@ -1,0 +1,69 @@
+[0.014s] Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/crazyrobot/evpi_ws/src/evpi_navigation -DCMAKE_INSTALL_PREFIX=/home/crazyrobot/evpi_ws/install/evpi_navigation
+[0.989s] -- The C compiler identification is GNU 9.4.0
+[1.780s] -- The CXX compiler identification is GNU 9.4.0
+[1.846s] -- Check for working C compiler: /usr/bin/cc
+[1.925s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.926s] -- Detecting C compiler ABI info
+[1.991s] -- Detecting C compiler ABI info - done
+[1.999s] -- Detecting C compile features
+[1.999s] -- Detecting C compile features - done
+[2.001s] -- Check for working CXX compiler: /usr/bin/c++
+[2.053s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.053s] -- Detecting CXX compiler ABI info
+[2.104s] -- Detecting CXX compiler ABI info - done
+[2.113s] -- Detecting CXX compile features
+[2.113s] -- Detecting CXX compile features - done
+[2.156s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.201s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.201s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.422s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.612s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.778s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.809s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.905s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.984s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.986s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.003s] -- Looking for pthread.h
+[3.147s] -- Looking for pthread.h - found
+[3.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.201s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.201s] -- Looking for pthread_create in pthreads
+[3.255s] -- Looking for pthread_create in pthreads - not found
+[3.256s] -- Looking for pthread_create in pthread
+[3.301s] -- Looking for pthread_create in pthread - found
+[3.302s] -- Found Threads: TRUE  
+[3.471s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[3.555s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.120s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.229s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.323s] -- Configuring done
+[4.331s] -- Generating done
+[4.332s] -- Build files have been written to: /home/crazyrobot/evpi_ws/build/evpi_navigation
+[4.338s] Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/crazyrobot/evpi_ws/src/evpi_navigation -DCMAKE_INSTALL_PREFIX=/home/crazyrobot/evpi_ws/install/evpi_navigation
+[4.339s] Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_navigation -- -j16 -l16
+[4.366s] [35m[1mScanning dependencies of target odometry[0m
+[4.654s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry.dir/src/odometry.cpp.o[0m
+[12.932s] [100%] [32m[1mLinking CXX executable odometry[0m
+[13.536s] [100%] Built target odometry
+[13.545s] Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_navigation -- -j16 -l16
+[13.564s] Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_navigation
+[13.572s] -- Install configuration: ""
+[13.572s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/lib/evpi_navigation/odometry
+[13.574s] -- Set runtime path of "/home/crazyrobot/evpi_ws/install/evpi_navigation/lib/evpi_navigation/odometry" to ""
+[13.574s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/ament_index/resource_index/package_run_dependencies/evpi_navigation
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/ament_index/resource_index/parent_prefix_path/evpi_navigation
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/environment/ament_prefix_path.sh
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/environment/ament_prefix_path.dsv
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/environment/path.sh
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/environment/path.dsv
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/local_setup.bash
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/local_setup.sh
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/local_setup.zsh
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/local_setup.dsv
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.dsv
+[13.575s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/ament_index/resource_index/packages/evpi_navigation
+[13.576s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/cmake/evpi_navigationConfig.cmake
+[13.576s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/cmake/evpi_navigationConfig-version.cmake
+[13.576s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_navigation/share/evpi_navigation/package.xml
+[13.577s] Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_navigation

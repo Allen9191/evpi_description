@@ -1,0 +1,8 @@
+source;share/evpi_uwb/hook/cmake_prefix_path.ps1
+source;share/evpi_uwb/hook/cmake_prefix_path.dsv
+source;share/evpi_uwb/hook/cmake_prefix_path.sh
+source;share/evpi_uwb/local_setup.bash
+source;share/evpi_uwb/local_setup.dsv
+source;share/evpi_uwb/local_setup.ps1
+source;share/evpi_uwb/local_setup.sh
+source;share/evpi_uwb/local_setup.zsh

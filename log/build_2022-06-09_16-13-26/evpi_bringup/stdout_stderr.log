@@ -1,0 +1,154 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found evpi_interfaces: 0.0.0 (/home/crazyrobot/evpi_ws/install/evpi_interfaces/share/evpi_interfaces/cmake)
+-- Found can_msgs: 2.0.0 (/opt/ros/foxy/share/can_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/crazyrobot/evpi_ws/build/evpi_bringup
+[35m[1mScanning dependencies of target can_manager[0m
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/can_manager.dir/src/can_manager.cpp.o[0m
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:[m[K In member function ‘[01m[Kvoid CanManager::strip_callback(evpi_interfaces::msg::Mode_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:110:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::mode[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  110 |       sensor_can_msgs.data = {[01;35m[Keyes_strip.mode[m[K, eyes_strip.pixels, eyes_strip.red_value,
+      |                               [01;35m[K~~~~~~~~~~~^~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:110:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::pixels[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  110 |    sensor_can_msgs.data = {eyes_strip.mode, [01;35m[Keyes_strip.pixels[m[K, eyes_strip.red_value,
+      |                                             [01;35m[K~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:110:78:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::red_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  110 | an_msgs.data = {eyes_strip.mode, eyes_strip.pixels, [01;35m[Keyes_strip.red_value[m[K,
+      |                                                     [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:111:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::green_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  111 |                               [01;35m[Keyes_strip.green_value[m[K, eyes_strip.blue_value,
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:111:66:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::blue_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  111 |                           eyes_strip.green_value, [01;35m[Keyes_strip.blue_value[m[K,
+      |                                                   [01;35m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:112:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Keyes_strip.can_t::time_interval[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  112 |                               [01;35m[Keyes_strip.time_interval[m[K};
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:126:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::mode[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  126 |       sensor_can_msgs.data = {[01;35m[Kfront_strip.mode[m[K, front_strip.pixels, front_strip.red_value,
+      |                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:126:61:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::pixels[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  126 |  sensor_can_msgs.data = {front_strip.mode, [01;35m[Kfront_strip.pixels[m[K, front_strip.red_value,
+      |                                            [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:126:81:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::red_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  126 | msgs.data = {front_strip.mode, front_strip.pixels, [01;35m[Kfront_strip.red_value[m[K,
+      |                                                    [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:127:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::green_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  127 |                               [01;35m[Kfront_strip.green_value[m[K, front_strip.blue_value,
+      |                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:127:68:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::blue_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  127 |                         front_strip.green_value, [01;35m[Kfront_strip.blue_value[m[K,
+      |                                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:128:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kfront_strip.can_t::time_interval[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  128 |                               [01;35m[Kfront_strip.time_interval[m[K};
+      |                               [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:142:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::mode[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  142 |       sensor_can_msgs.data = {[01;35m[Kback_strip.mode[m[K, back_strip.pixels, back_strip.red_value,
+      |                               [01;35m[K~~~~~~~~~~~^~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:142:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::pixels[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  142 |    sensor_can_msgs.data = {back_strip.mode, [01;35m[Kback_strip.pixels[m[K, back_strip.red_value,
+      |                                             [01;35m[K~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:142:78:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::red_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  142 | an_msgs.data = {back_strip.mode, back_strip.pixels, [01;35m[Kback_strip.red_value[m[K,
+      |                                                     [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:143:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::green_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  143 |                               [01;35m[Kback_strip.green_value[m[K, back_strip.blue_value,
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:143:66:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::blue_value[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  143 |                           back_strip.green_value, [01;35m[Kback_strip.blue_value[m[K,
+      |                                                   [01;35m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:144:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kback_strip.can_t::time_interval[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kunsigned char[m[K’ [[01;35m[K-Wnarrowing[m[K]
+  144 |                               [01;35m[Kback_strip.time_interval[m[K};
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:[m[K In member function ‘[01m[Kvoid CanManager::can_callback(can_msgs::msg::Frame_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:154:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcan_msgs::msg::Frame_<std::allocator<void> >::_id_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  154 |     if([01;35m[Kfront_strip.can_id == msg->id[m[K)
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/crazyrobot/evpi_ws/src/evpi_bringup/src/can_manager.cpp:164:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcan_msgs::msg::Frame_<std::allocator<void> >::_id_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  164 |     else if([01;35m[Ksteering_angle.can_id == msg->id[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable can_manager[0m
+[100%] Built target can_manager
+-- Install configuration: ""
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/launch
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/launch/can_manager.launch.py
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/launch/can.launch.py
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/launch/teleop.launch.py
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/launch/imu.launch.py
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/launch/velodyne.launch.py
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/config
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/config/xsens_mti_node.yaml
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/config/VLP16-velodyne_driver.yaml
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/config/ps3.config.yaml
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/config/camera_info.yaml
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/config/can_table.yaml
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/config/camera_params.yaml
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/include
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/include/evpi_bringup
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/include/evpi_bringup/can_manager.hpp
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/lib/evpi_bringup/talker
+-- Set runtime path of "/home/crazyrobot/evpi_ws/install/evpi_bringup/lib/evpi_bringup/talker" to ""
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/lib/evpi_bringup/can_manager
+-- Set runtime path of "/home/crazyrobot/evpi_ws/install/evpi_bringup/lib/evpi_bringup/can_manager" to ""
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/ament_index/resource_index/package_run_dependencies/evpi_bringup
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/ament_index/resource_index/parent_prefix_path/evpi_bringup
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/environment/path.sh
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/environment/path.dsv
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/local_setup.bash
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/local_setup.sh
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/local_setup.zsh
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/local_setup.dsv
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.dsv
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/ament_index/resource_index/packages/evpi_bringup
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/cmake/evpi_bringupConfig.cmake
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/cmake/evpi_bringupConfig-version.cmake
+-- Installing: /home/crazyrobot/evpi_ws/install/evpi_bringup/share/evpi_bringup/package.xml

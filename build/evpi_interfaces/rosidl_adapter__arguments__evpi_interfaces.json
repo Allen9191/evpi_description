@@ -1,0 +1,7 @@
+{
+  "package_name": "evpi_interfaces",
+  "non_idl_tuples": [
+    "/home/crazyrobot/evpi_ws/src/evpi_interfaces:msg/Mode.msg",
+    "/home/crazyrobot/evpi_ws/src/evpi_interfaces:msg/MultiRange.msg"
+  ]
+}

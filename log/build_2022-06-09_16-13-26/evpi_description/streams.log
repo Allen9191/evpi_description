@@ -1,0 +1,75 @@
+[0.017s] Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/crazyrobot/evpi_ws/src/evpi_description -DCMAKE_INSTALL_PREFIX=/home/crazyrobot/evpi_ws/install/evpi_description
+[0.998s] -- The C compiler identification is GNU 9.4.0
+[1.789s] -- The CXX compiler identification is GNU 9.4.0
+[1.854s] -- Check for working C compiler: /usr/bin/cc
+[1.934s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.935s] -- Detecting C compiler ABI info
+[1.999s] -- Detecting C compiler ABI info - done
+[2.007s] -- Detecting C compile features
+[2.008s] -- Detecting C compile features - done
+[2.010s] -- Check for working CXX compiler: /usr/bin/c++
+[2.061s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.062s] -- Detecting CXX compiler ABI info
+[2.113s] -- Detecting CXX compiler ABI info - done
+[2.121s] -- Detecting CXX compile features
+[2.122s] -- Detecting CXX compile features - done
+[2.164s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.209s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.210s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.430s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.621s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.787s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.811s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.993s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.994s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.011s] -- Looking for pthread.h
+[3.153s] -- Looking for pthread.h - found
+[3.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.209s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.209s] -- Looking for pthread_create in pthreads
+[3.264s] -- Looking for pthread_create in pthreads - not found
+[3.264s] -- Looking for pthread_create in pthread
+[3.307s] -- Looking for pthread_create in pthread - found
+[3.308s] -- Found Threads: TRUE  
+[3.470s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[3.518s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.653s] -- Configuring done
+[3.658s] -- Generating done
+[3.659s] -- Build files have been written to: /home/crazyrobot/evpi_ws/build/evpi_description
+[3.664s] Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/crazyrobot/evpi_ws/src/evpi_description -DCMAKE_INSTALL_PREFIX=/home/crazyrobot/evpi_ws/install/evpi_description
+[3.666s] Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_description -- -j16 -l16
+[3.690s] [35m[1mScanning dependencies of target evpi_joint_state_publisher[0m
+[4.146s] [ 50%] [32mBuilding CXX object CMakeFiles/evpi_joint_state_publisher.dir/src/evpi_joint_state_publisher.cpp.o[0m
+[9.061s] [100%] [32m[1mLinking CXX executable evpi_joint_state_publisher[0m
+[9.450s] [100%] Built target evpi_joint_state_publisher
+[9.459s] Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/crazyrobot/evpi_ws/build/evpi_description -- -j16 -l16
+[9.480s] Invoking command in '/home/crazyrobot/evpi_ws/build/evpi_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_description
+[9.487s] -- Install configuration: ""
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/urdf
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/urdf/evpi.urdf
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/meshes
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/meshes/GB.stl
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/rviz
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/rviz/urdf_config.rviz
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/launch
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/launch/evpi_v1.launch.py
+[9.488s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/lib/evpi_description/evpi_joint_state_publisher
+[9.490s] -- Set runtime path of "/home/crazyrobot/evpi_ws/install/evpi_description/lib/evpi_description/evpi_joint_state_publisher" to ""
+[9.490s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/ament_index/resource_index/package_run_dependencies/evpi_description
+[9.490s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/ament_index/resource_index/parent_prefix_path/evpi_description
+[9.490s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/environment/ament_prefix_path.sh
+[9.490s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/environment/ament_prefix_path.dsv
+[9.490s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/environment/path.sh
+[9.490s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/environment/path.dsv
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/local_setup.bash
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/local_setup.sh
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/local_setup.zsh
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/local_setup.dsv
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.dsv
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/ament_index/resource_index/packages/evpi_description
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/cmake/evpi_descriptionConfig.cmake
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/cmake/evpi_descriptionConfig-version.cmake
+[9.491s] -- Installing: /home/crazyrobot/evpi_ws/install/evpi_description/share/evpi_description/package.xml
+[9.496s] Invoked command in '/home/crazyrobot/evpi_ws/build/evpi_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/crazyrobot/evpi_ws/build/evpi_description
